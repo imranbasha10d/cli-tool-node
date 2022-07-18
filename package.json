@@ -1,0 +1,20 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "g": "^2.0.1",
+    "node-fetch": "^3.2.8"
+  },
+  "bin": {
+    "node-app": "./index.js"
+  }
+}
